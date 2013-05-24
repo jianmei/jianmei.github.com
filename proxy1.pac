@@ -34,7 +34,7 @@ function FindProxyForURL(url, host) {
         shExpMatch(url,"*.bullogger.com*")
       ) 
    {
-        return "SOCKS localhost:1080";
+        return "HTTP sg.myalert.info:56789";
    }
    
    //return "HTTP localhost:8888";
