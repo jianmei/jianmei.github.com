@@ -31,6 +31,7 @@ function FindProxyForURL(url, host) {
         shExpMatch(host,"*twitter*") ||
         shExpMatch(url,"*eclipse*") ||
         shExpMatch(url,"*flickr*") ||
+        shExpMatch(url,"*myipaddress.com*") ||
         shExpMatch(url,"*.bullogger.com*")
       ) 
    {
